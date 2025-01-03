@@ -114,7 +114,7 @@ const Video = () => {
         ></video>
       </div>
       <div className='video__title-container' ref={titleRef}>
-        <h1 className='video__title'>Park Ye rim, UI Developer</h1>
+        <h1 className='video__title'>Kim Jun Young, Backend developer</h1>
         <div className='video__info pc-only'>
           <p>Featured Reel ‘24</p>
           <button className='video__timer' onClick={onClickVideoControl}>

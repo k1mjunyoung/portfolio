@@ -35,7 +35,7 @@ const Header = () => {
         <div className='header__inner'>
           <div className='header__logo'>
             <a href='/' title='홈으로'>
-              <span className='sound-only'>Yerim.e</span>
+              <span className='sound-only'>KIM JUN YOUNG</span>
               <LOGO className='logo' />
             </a>
           </div>
