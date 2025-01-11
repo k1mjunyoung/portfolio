@@ -14,4 +14,8 @@ export const skill = {
   SASS: require('/public/icon/skill/sass_40.svg').default(),
   SC: require('/public/icon/skill/sc_40.svg').default(),
   SPRING: require('/public/icon/skill/spring_40.svg').default(),
+  MYSQL: require('/public/icon/skill/mysql_40.svg').default(),
+  POSTGRESQL: require('/public/icon/skill/postgresql_40.svg').default(),
+  REDIS: require('/public/icon/skill/redis_40.svg').default(),
+  JAVA: require('/public/icon/skill/java_40.svg').default(),
 };
