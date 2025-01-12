@@ -216,7 +216,7 @@ const Menu = (props: IHeaderMenuProps) => {
                     </div>
                     <ul className='menu__info-list'>
                       <li className='menu__info-item'>
-                        <a href={link.mail}>yerime.dev@gmail.com</a>
+                        <a href={link.mail}>me@kimjunyoung.com</a>
                       </li>
                     </ul>
                   </div>
@@ -232,16 +232,16 @@ const Menu = (props: IHeaderMenuProps) => {
                           Github <LinkArrow />
                         </a>
                       </li>
-                      <li className='menu__info-item'>
+                      {/* <li className='menu__info-item'>
                         <a href={link.velog} target='_blank'>
                           Velog <LinkArrow />
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
                 <ul className='menu__category'></ul>
-                <p className='menu__copy'>Copyright ©2024 | Park Ye rim</p>
+                <p className='menu__copy'>Copyright ©2025 | KIM JUN YOUNG</p>
               </div>
             </motion.div>
           </motion.div>
