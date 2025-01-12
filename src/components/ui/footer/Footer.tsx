@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { link } from '@/data';
 import Ticker from '@/components/ui/ticker/Ticker';
 
-const tickerData = ['Web Publisher', 'Front-end Developer', 'UI Developer'];
+const tickerData = ['Web Developer', 'Back-end Developer', 'Software Engineer'];
 
 const Footer = () => {
   const footerRef = useRef<HTMLDivElement>(null);
@@ -15,13 +15,13 @@ const Footer = () => {
         <div className='footer__inner'>
           <small className='footer__copy'>
             <span className='footer__copy-icon'>©</span>
-            Park Ye rim
+            KimJunyoung
           </small>
           <ul className='footer__info'>
-            <li className='footer__info-item footer__year'>© 2024</li>
+            <li className='footer__info-item footer__year'>© 2025</li>
             <li className='footer__info-item'>
               <a className='footer__info-link' href={link.mail} target='_blank'>
-                yerime.dev@gmail.com
+                me@kimjunyoung.com
               </a>
             </li>
             <li className='footer__info-item'>
@@ -33,7 +33,7 @@ const Footer = () => {
                 resume
               </a>
             </li>
-            <li className='footer__info-item'>
+            {/* <li className='footer__info-item'>
               <a
                 className='footer__info-link'
                 href={link.velog}
@@ -41,7 +41,7 @@ const Footer = () => {
               >
                 Velog
               </a>
-            </li>
+            </li> */}
             <li className='footer__info-item'>
               <a
                 className='footer__info-link'

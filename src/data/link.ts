@@ -1,9 +1,9 @@
 export const link = {
-  mail: 'mailto:yerime.dev@gmail.com',
+  mail: 'mailto:me@kimjunyoung.com',
   resume:
-    'https://meadow-touch-c48.notion.site/Yerim-Park-FLEXIBLE-Developer-5694713033624c6cae1ae51b129c556a?pvs=4',
+    'https://kimjunyoung.notion.site/99c7d47accf3412fa75cfba88c70f797?pvs=4',
   velog: 'https://velog.io/@kimbangul',
-  github: 'https://github.com/Kimbangul',
+  github: 'https://github.com/k1mjunyoung',
 };
 
 export const blurDataUrl =

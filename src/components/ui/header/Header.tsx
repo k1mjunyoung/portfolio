@@ -35,7 +35,7 @@ const Header = () => {
         <div className='header__inner'>
           <div className='header__logo'>
             <a href='/' title='홈으로'>
-              <span className='sound-only'>Yerim.e</span>
+              <span className='sound-only'>KIM JUN YOUNG</span>
               <LOGO className='logo' />
             </a>
           </div>
@@ -216,7 +216,7 @@ const Menu = (props: IHeaderMenuProps) => {
                     </div>
                     <ul className='menu__info-list'>
                       <li className='menu__info-item'>
-                        <a href={link.mail}>yerime.dev@gmail.com</a>
+                        <a href={link.mail}>me@kimjunyoung.com</a>
                       </li>
                     </ul>
                   </div>
@@ -232,16 +232,16 @@ const Menu = (props: IHeaderMenuProps) => {
                           Github <LinkArrow />
                         </a>
                       </li>
-                      <li className='menu__info-item'>
+                      {/* <li className='menu__info-item'>
                         <a href={link.velog} target='_blank'>
                           Velog <LinkArrow />
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
                 <ul className='menu__category'></ul>
-                <p className='menu__copy'>Copyright ©2024 | Park Ye rim</p>
+                <p className='menu__copy'>Copyright ©2025 | KIM JUN YOUNG</p>
               </div>
             </motion.div>
           </motion.div>

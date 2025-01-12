@@ -16,23 +16,23 @@ import { Cursor } from '@/components/ui/cursor';
 import RenisScroll from '@/components/register/renis/RenisScroll';
 
 export const metadata: Metadata = {
-  title: 'YERIM.e',
+  title: 'KIM JUN YOUNG',
   description:
-    '프론트엔드 개발자, 웹 퍼블리셔, 웹 개발자, UX/UI 개발자 박예림 포트폴리오입니다.',
+    '안녕하세요. 백엔드 개발자, 김준영입니다.',
   keywords: [
-    '프론트엔드 개발자, 프론트엔드 포트폴리오, 웹 퍼블리셔 포트폴리오, UX 엔지니어, UI 개발자, 웹 퍼블리셔',
+    '백엔드 개발자',
   ],
   icons: [{ rel: 'icon', url: Favicon.src }],
   verification: {
     google: 'YxlqZ71uNOrnU5b6IEnjMCb7CYtdr-LeWdgBl6WlY5o',
   },
-  applicationName: 'YERIM.e',
+  applicationName: 'KIMJUNYOUNG',
   openGraph: {
     images: '/og-image.png',
-    title: 'YERIM.e :: 박예림 - 프론트엔드 개발자 포트폴리오',
+    title: 'KIM JUN YOUNG :: 백엔드 개발자, 김준영',
     type: 'website',
     description:
-      '프론트엔드 개발자, 웹 퍼블리셔, 웹 개발자, UI 개발자 박예림 포트폴리오입니다.',
+      '안녕하세요. 백엔드 개발자, 김준영입니다.',
   },
 };
 export const viewport: Viewport = {

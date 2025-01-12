@@ -7,7 +7,7 @@ import { Section } from '@/components/ui/section';
 import { project, IProjectItem, blurDataUrl } from '@/data';
 import { springOption } from '@/utils';
 
-const baseProjectNum = 4;
+const baseProjectNum = 2;
 const flagshipProject = project.slice(0, baseProjectNum);
 const otherProject = project.slice(baseProjectNum, project.length);
 
@@ -24,7 +24,7 @@ const Project = () => {
       </Section>
       <Section className='sub-project' autoheight={true}>
         <h2 className='sound-only'>그 외 프로젝트</h2>
-        <h3 className='sc__title'>~ 2023 Works</h3>
+        <h3 className='sc__title'>~ 2024 Works</h3>
         <ul className='sub-project__list'>
           {otherProject.map((el, idx) => (
             <SubProjectItem {...el} key={el.key} idx={idx} />
@@ -96,14 +96,14 @@ const ProjectItem = (props: IProjectItem) => {
             >
               View Project →
             </a>
-            <a
+            {/* <a
               className='project__item-link-item project__item-link-info'
               target='_blank'
               href={props.notion || '#'}
               title={`${props.title} 상세 보기`}
             >
               Code Review →
-            </a>
+            </a> */}
           </div>
         </div>
         <ul className='project__tag pc-only'>

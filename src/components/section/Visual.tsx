@@ -167,10 +167,10 @@ const Visual = () => {
         <div className='visual__text-row'>
           <div className='visual__line' data-line='1'></div>
           <VisualVideo id={2} />
-          <VisualText>memorable</VisualText>
+          <VisualText>sustainable</VisualText>
         </div>
         <div className='visual__text-row'>
-          <VisualText>websites</VisualText>
+          <VisualText>services</VisualText>
           <div className='visual__icon' data-icon='5'>
             <Lottie
               lottieRef={icon2Ref}
@@ -200,7 +200,7 @@ const Visual = () => {
           <VisualIcon id={2} />
           <VisualVideo id={5} />
           <VisualText>better</VisualText>
-          <VisualText>UX.</VisualText>
+          <VisualText>flexibility</VisualText>
         </div>
       </div>
       <div className='visual__text-container tb-only'>
@@ -217,11 +217,11 @@ const Visual = () => {
           <VisualVideo id={1} />
         </div>
         <div className='visual__text-row'>
-          <VisualText>memorable</VisualText>
+          <VisualText>sustainable</VisualText>
         </div>
         <div className='visual__text-row'>
           <VisualVideo id={4} />
-          <VisualText>websites</VisualText>
+          <VisualText>services</VisualText>
         </div>
         <div className='visual__text-row'>
           <div className='visual__line' data-line='1'></div>
@@ -249,7 +249,7 @@ const Visual = () => {
           <VisualIcon id={2} />
           <VisualIcon id={10} />
           <VisualIcon id={2} />
-          <VisualText>UX.</VisualText>
+          <VisualText>flexibility</VisualText>
         </div>
       </div>
     </Section>
