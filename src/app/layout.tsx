@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   icons: [{ rel: 'icon', url: Favicon.src }],
   verification: {
-    google: 'YxlqZ71uNOrnU5b6IEnjMCb7CYtdr-LeWdgBl6WlY5o',
+    google: 'xLRCidkpMADKtHJKUzGuhzRnOBaR-o37aamjth4VCyQ',
   },
   applicationName: 'KIMJUNYOUNG',
   openGraph: {
@@ -55,7 +55,7 @@ export default function RootLayout({
     >
       <body suppressHydrationWarning>
         <GSAPRegister>
-          <GoogleAnalytics gaId='G-TMJ0DT1H3N' />
+          <GoogleAnalytics gaId='G-2YK7XW4NGL' />
           <Header />
           {children}
           <Cursor />
